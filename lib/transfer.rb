@@ -1,4 +1,4 @@
-class Transfer
+Ωclass Transfer
   
   attr_accessor :sender, :receiver, :amount, :status
   
@@ -20,7 +20,7 @@ class Transfer
       @status = "complete"
     else
       @status = "reject"
-      return "Transaction rejected. Please check your account balance."
+      return "Complete."
     end
   end
   
