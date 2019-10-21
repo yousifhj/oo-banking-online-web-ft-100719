@@ -10,5 +10,7 @@ class Transfer
   end 
   
   def valid?
-    @receiver.valid @sender.valid
+    @receiver.valid && @sender.valid ? true : false 
+  end 
+  
 end
