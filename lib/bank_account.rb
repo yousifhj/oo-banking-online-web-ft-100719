@@ -22,7 +22,7 @@ class BankAccount
   end 
   
   def close_account 
-    
+    @ststus = "closed"
   end
 
 end
