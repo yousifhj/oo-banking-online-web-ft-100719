@@ -20,7 +20,7 @@
       @status = "complete"
     else
       @status = "reject"
-      return "Complete."
+      return "Complete"
     end
   end
   
