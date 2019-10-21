@@ -18,7 +18,7 @@ class BankAccount
   end
   
   def valid?
-    open ?  balance > 0 
+    open balance > 0 ! true : false 
   end 
 
 
